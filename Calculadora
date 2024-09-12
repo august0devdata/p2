@@ -1,0 +1,27 @@
+print(""" Qual operação deseja realizar:
+     
+     1. soma
+     2. subtracão
+     3. multiplicacão
+     4. divisão 
+""") 
+selecao = int(input("Selecionar: "))
+
+
+entrada1 = int(input("Digite o primeiro numero: ")) 
+entrada2 = int(input("Digite o segundo numero: ")) 
+
+if selecao == 1: 
+    resultado = entrada1 + entrada2 
+    print(resultado) 
+elif selecao == 2: 
+    resultado = entrada1 - entrada2
+    print(resultado)
+elif selecao == 3: 
+    resultado = entrada1 * entrada2 
+    print(resultado) 
+elif selecao == 4: 
+    resultado = entrada1 / entrada2 
+    print(resultado) 
+else: 
+    print("Comando nao encontrado") 
